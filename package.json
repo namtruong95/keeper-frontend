@@ -14,7 +14,7 @@
     "compress": "./node_modules/.bin/gulp compress",
     "serve:dev": "./node_modules/.bin/ng serve --environment=dev --extract-css=true --output-hashing=all",
     "serve:local": "./node_modules/.bin/ng serve --environment=local --extract-css=true --output-hashing=all",
-    "postinstall": "ng build --aot=true -prod --extract-css=true --output-hashing=all --sourcemap=false --target=production --no-progress=true"
+    "postinstall": "ng build --aot=true --environment=prod --extract-css=true --output-hashing=all --sourcemap=false --target=production --no-progress=true"
   },
   "private": true,
   "dependencies": {
